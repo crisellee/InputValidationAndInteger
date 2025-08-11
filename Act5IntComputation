@@ -1,0 +1,106 @@
+import 'dart:io';
+
+// void main() {
+//     print("Enter name: ");
+//     String? name=stdin.readLineSync();
+//     print("The entered name is ${name}");
+// }
+
+// void main() {
+
+//   print("===User Registration===");
+    
+//   print("Enter First Name: ");
+//   String? firstName = stdin.readLineSync();
+
+//   print("Enter Last Name: ");
+//   String? lastName = stdin.readLineSync();
+
+//   print("Enter Your email: ");
+//   String? email = stdin.readLineSync();
+
+//   print("\n== Registration Summary ===");
+//   print("Name: ${firstName} ${lastName}");
+//   print("Email: ${email}");
+
+//   //simple validation
+//   if (firstName !=null &&
+//       firstName.trim().isNotEmpty && 
+//       lastName !=null &&
+//       lastName.trim().isNotEmpty && 
+//       email!=null &&
+//       email.trim().isNotEmpty) {
+//     print("Registration successful!");
+//   } else {
+//     print("Please provide all required information");
+//   }
+// }
+
+// void main() {
+//   print("Enter Your Number: ");
+//   String? input = stdin.readLineSync();
+//   int? number;
+
+//   // int? Age = int.parse(stdin.readLineSync()!);
+//   if (input != null && input.trim().isNotEmpty) {
+//     if (int.tryParse(input.trim()) != null) {
+//       number = int.parse(input.trim());
+//     }
+//   }
+
+
+//   print("The entered number is ${number}");
+
+//  //simple validation
+//   if (number != null) {
+//     if (number >= 18) {
+//       print("You are an Adult");
+//     } else {
+//     print("You are a Minor");
+//     }
+//   } else {
+//   print("please provide a valid numeric age");
+//   }
+// }
+ 
+
+// /Activity 5
+void main() {
+  print("Enter first Number: ");
+  double? num1 = double.parse(stdin.readLineSync()!);
+  
+
+  print("Enter Second Number: ");
+  double? num2 = double.parse(stdin.readLineSync()!);
+
+  double sum = num1 + num2;
+  double diff = num1 - num2;
+  double mul = num1 * num2;
+  double div = num1 / num2;
+
+ print("The sum is $sum");
+ print("The difference is $diff");
+ print("The multiplication is $mul");
+ print("The division is $div");
+}
+
+
+// Activty 4
+// void main() {
+//   print("Enter Your Age: ");
+//   int? Age = int.parse(stdin.readLineSync()!);
+
+//   print("The entered Age is ${Age}");
+
+//  //simple validation
+//   if (Age >= 18) {
+//     print("You are an Adult");
+//   } else {
+//     print("You are a Minor");
+//   }
+// }
+ 
+
+    
+
+
